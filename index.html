@@ -1,0 +1,73 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,
+		initial-scale=1, maximum-scale: 1">
+		<link rel="stylesheet" href="styleog.css">
+		<title></title>
+	</head>
+	
+	
+	<body onload="myFunction()" style="margin:0;">
+	 <center><div class="preloader" id="loader" width="100%" ><img src="loader.gif"></div></center>
+	
+		<div class="grid">
+			<div class="one">
+			<center><img src="circlee.png" width="50%"></center>
+			<br><br><br><br><br><br>
+			<p>Portfolio</p>
+			<p>Blog</p>
+			<p>Doodles</p>
+			<p>About Me</p>
+			<p>Contact</p>
+			</div>
+			<div class="two">
+				
+					<img src="split.png" width="100%">
+				
+			</div>
+
+			<div class="three">
+				
+					<img src="lady.png" width="100%">
+				
+			</div>
+			<div class="four">
+			
+			<img src="gameone.png" width="100%">
+			
+			</div>
+			<div class="five">
+						<img src="graphico.png" width="100%">
+
+			</div>
+			<div class="six">
+						<img src="gamy.png" width="100%">
+
+			</div>
+			<div class="seven">
+					<img src="ui.jpg" width="100%">
+
+			</div>
+			<div class="eight">
+					<img src="hci.png" width="100%">
+
+			</div>
+
+		</div>
+		<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+  myVar=fadeOut('slow');
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+	</body>
+</html>
